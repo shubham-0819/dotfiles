@@ -204,3 +204,6 @@ export SCM_CHECK=true
 
 # Load Bash It
 source "$BASH_IT"/bash_it.sh
+
+eval "$(thefuck --alias)"
+export PATH="$PATH:/opt/nvim-linux64/bin"
